@@ -9,7 +9,7 @@ Please see the [wiki](https://github.com/robbiemu/pixel-perfect-precision/wiki) 
 
 ## Chronology of Sections
 
-* The Core
+* [The Core](https://github.com/robbiemu/Pixel-Perfect-Precision/blob/master/the_core.md)
 * Pixel Perfect Principles
 * Pixel Perfect details
 * Accessibility
