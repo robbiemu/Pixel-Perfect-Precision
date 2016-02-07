@@ -6,7 +6,7 @@ _"This ﬁrst section covers core principles and topics that apply to digital de
 
 Right away they start with a rather strange example:
 
-    a completely ﬂat, cutting edge interface guided by grids and typography may work for a younger audience, but perhaps some friendlier skeuomorphic touches would be more appropriate for older users who aren’t quite so tech-savvy.
+> a completely ﬂat, cutting edge interface guided by grids and typography may work for a younger audience, but perhaps some friendlier skeuomorphic touches would be more appropriate for older users who aren’t quite so tech-savvy.
 
 ### Skeuomorphic
 
