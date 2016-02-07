@@ -1,0 +1,77 @@
+article {
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  min-height: calc(100vh - 3em);
+  min-width: 30em;
+  position: absolute;
+}
+
+article > h1 {
+  font-size: 3em;
+  font-family: "Roboto Slab", Cambria, Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+article p {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+section > h2 {
+  color: grey;
+  border-bottom: solid #eee thin;
+}
+
+ul.clean {
+  list-style-type: none;
+}
+
+.example ul.clean img {
+  width: 4pc;
+  height: 4pc;
+  float: left;
+  margin-right: 1rem;
+  border-radius: 3pt;
+}
+
+.example li {
+  font-family: "Roboto Slab", Cambria, Helvetica, Arial, sans-serif;
+  background-color: #eee;
+  height: 7.2pc;
+  width: 20em;
+  padding: 2pt;
+  margin: 7pt;
+  border: solid #ddd thin;
+  border-radius: 4pt;
+}
+
+.example li p {
+  margin: 17pt 6pt 0 6pt;
+}
+
+.example li.hotfix:hover {
+  /* Either we need to let the height expand, or we need to preprocess it to
+  trucate the data. In this case we will truncate. */
+  // height: auto;
+  overflow: hidden;
+  /* Let's add a bit more width rather than require the title to be pre-processed
+  to achieve elipses. */
+  width: auto;
+  max-width: 25em;
+  /* just including this to keep the rest constant */
+  min-height: 7.2pc;
+  min-width: 20em;
+}
+
+.example ul.clean li.twopc img {
+  width: 2pc;
+  height: 2pc;
+}
+
+.example li.twopc h3 {
+  margin: 3pt 0;
+}
+
+.example li.twopc {
+  height: auto;
+}
